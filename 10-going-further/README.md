@@ -26,7 +26,8 @@ Such a file system can be deployed inside your Kubernetes cluster, and can use t
 Here are some tools and frameworks that can make it easy to deploy such a distributed file system on Kubernetes:
 
 * [GlusterFS](http://www.gluster.org/)
-* [Rook](https://rook.io/)
+* [Rook.io](https://rook.io/)
+* [Minio](https://www.minio.io)
 * [Portworks](https://portworx.com/)
 * [Pachyderm](http://pachyderm.io/)
 
@@ -41,3 +42,13 @@ As of this writing, autoscaling is only supported on Kubernetes cluster created 
 See the following resources to get started:
 
 * [Kubernetes Azure cluster-autoscaler](https://github.com/kubernetes/autoscaler/tree/master/cluster-autoscaler/cloudprovider/azure)
+
+## More resources
+
+### Training MNIST using Kubeflow, S3, and Argo.
+
+[https://github.com/kubeflow/examples/tree/master/mnist](https://github.com/kubeflow/examples/tree/master/mnist)
+
+If you want to experiment running a distributed MNIST on a distributed storage using Minio with Kubeflow, you can [check this example](https://github.com/kubeflow/examples/tree/master/mnist) from the official Kubeflow/Examples repository. 
+
+This example will also introduce you to a workflow tool named : [argo](https://github.com/argoproj/argo). It is very useful when you want to automatically prepare data, train, serve and monitor using only one command.
