@@ -28,7 +28,7 @@ Here are some tools and frameworks that can make it easy to deploy such a distri
 * [GlusterFS](http://www.gluster.org/)
 * [Rook.io](https://rook.io/)
 * [Minio](https://www.minio.io)
-* [Portworks](https://portworx.com/)
+* [Portwork](https://portworx.com/)
 * [Pachyderm](http://pachyderm.io/)
 
 ## Autoscaling a Kubernetes Cluster
